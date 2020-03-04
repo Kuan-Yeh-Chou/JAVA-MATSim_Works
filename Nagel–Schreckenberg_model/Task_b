@@ -1,0 +1,20 @@
+Task B
+
+In free flow scenario 1000 simulation steps, if the probabilities of dawdle increase from 0.3 to 0.6, average Mean Speed
+and Outflow decrease, and Density increase  which mean causing more chance of occurring congestion and long kinematic waves.
+If the probabilities of emitting Cars increase from 0.5 to 0.8, the Density slightly increase, and Mean Speed and
+Outflow increase. Overall, it is approaching the critical outflow of this road.
+If the dawdle speed decrease from 1-2 to 2-3, average Mean Speed and Outflow decrease, and Density increase that increase
+the chance of the congestion and long kinematic waves.
+
+The Nagel-Schreckenberg model is a cellular automaton model for road traffic flow of freeway traffic, the unit of road
+length is a cell and unit of time is an time step. The action pattern of this model is Accelerate, Brake(slow down),
+Randomization (speed at least 1 will decrease in certain probabilities), and Movement. It indicates the occurrence of
+congestion internally without ant disturbance externally, and it is able to observe the interaction between cars on the
+road during congestion. (Nagel, K. & Schreckenberg, M.,1992)
+
+The Nagel-Schreckenberg model can be related to this work with its characteristic of Randomization that can represent
+driver behavior such as dawdling, if there is no Randomization then all driver pattern will be the same. Moreover, we
+are able to adjust Randomization and other indicator to simulate different traffic scenarios to measure or forecast the
+emerging congestion and the speed of kinematic waves.
+

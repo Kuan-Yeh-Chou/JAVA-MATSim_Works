@@ -1,0 +1,43 @@
+ According to Assignment3_task_a excel file which contained the data and plots, the following text will explain the
+ observation of 3 scenarios and compare the result referring to the fundamental diagram of traffic flow theory. The grid
+ 1 row and 50 column is used.
+ (Speed unit: grids moved/time step, Density unit: number of cars/grid, Outflow unit: number of cars reach end/time step)
+
+1. Free flow Scenario:
+    The overall average Mean Speed is 1.447 which is the highest among all scenario, Density is 0.1684 which is the lowest,
+    Outflow is 0.27.
+    The relation between Mean Speed and Density is that the higher the Density the lower the Mean Speed.
+    Most of the Mean Speed are range form 1 to 2, and Density are from 0.1 to 0.25. Overall, this plots correspond to
+    the fundamental diagram.
+    The relation between Mean Speed and Outflow is that there is no obvious tendency, however, the maximum Outflow
+    is 0.6 with corresponding to Mean Speed from 1 to 1.5, and the minimum Outflow 0 correspond to Mean Speed from
+    2 to 0.5. Overall, this plots is not really correspond to the fundamental diagram.
+    The relation between Outflow and Density is discrete, with most Density range from 0.1 to 0.25 and Outflow range
+    from 0.2 to 0.4. Overall, this plots is not really correspond to the fundamental diagram.
+
+2. Platooning Scenario:
+    The overall average Mean Speed is 1.404, Density is 0.1712, Outflow is 0.28 which is the highest.
+    The relation between Mean Speed and Density is that the higher the Density the lower the Mean Speed. Most of the
+    Mean Speed are range form 1 to 2, and Density are from 0.1 to 0.25. However, the plots is more concentrated than
+    Free flow Scenario. Overall, this plots correspond to the fundamental diagram.
+    The relation between Mean Speed and Outflow is that there is no obvious tendency, however, the maximum Outflow
+    is 0.8 with corresponding to Mean Speed from 1 to 1.5 and 3 that might be outlier, and the minimum Outflow 0
+    correspond to Mean Speed from 2 to 0.5. Overall, this plots is more concentrated to Outflow 0.2 to 0.4 than
+    Free flow Scenario, but still not really correspond to the fundamental diagram.
+    The relation between Outflow and Density is discrete, with most Density range from 0.1 to 0.25 and Outflow range
+    from 0.2 to 0.4. Overall, this plots is more concentrated to Outflow 0.2 to 0.4 than Free flow Scenario, and it has
+    profile of the fundamental diagram.
+
+3. Congested flow Scenario:
+    The overall average Mean Speed is 1.249 which is the lowest, Density is 0.1788 which is the highest, Outflow is 0.25
+    which is the lowest, therefore it reasonably describe the phenomenon of the congested flow.
+    The relation between Mean Speed and Density is that the higher the Density the lower the Mean Speed. Most of the
+    Mean Speed are range form 0.5 to 2, and Density are from 0.1 to 0.25. However, the plots is more concentrated at
+    Density range from 0.1 to 0.2 comparing to both previous scenarios. Overall, this plots correspond to the fundamental
+    diagram.
+    The relation between Mean Speed and Outflow is that there is no obvious tendency, however, the maximum Outflow
+    is 0.6 with corresponding to Mean Speed from 2 to 0.5, and the minimum Outflow 0 correspond to Mean Speed from
+    2 to 0.5. Overall, this plots is more discrete than both previous scenarios, but still not really correspond to
+    the fundamental diagram.
+    The relation between Outflow and Density is more concentrated than both previous scenarios, with most Density range
+    from 0.1 to 0.2 and Outflow range from 0.2 to 0.4. Overall, this plots is correspond to the fundamental diagram.
